@@ -1,293 +1,45 @@
 * {
-    margin: 0 auto;
     padding: 0 auto;
+    margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#wrapper {
+body {
+    background-color: #ffffff;
+}
 
-    max-width: 1360px;
+#wrapper {
+    width: 1300px;
     margin: 0 auto;
     overflow: hidden;
 }
 
 #header {
-    background: repeat-x #ffffff;
+    background: repeat-x grey;
+    height: 100px;
     width: 100%;
-    height: 80px;
-    overflow: hidden;
-    padding: 10px;
-    position: fixed;
+    padding: 0 50px;
 }
 
-#menu {
-    width: 100%;
-}
-
-#header img {
+.logo img {
     float: left;
-    overflow: hidden;
-    margin-bottom: 100px;
 }
 
 .navigasi ul {
-    margin-top: 5px;
-    margin-left: 800px;
-    list-style: none ;
+    margin-top: px;
+    list-style: none;
+    padding-left: 750px;
+
 }
 
 .navigasi ul li {
     float: left;
-    padding: 30px;
+    padding: 40px 30px;
 }
 
 .navigasi ul li a {
-    color: black;
+    color: #ffffff;
+    font-style: none;
     text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 15px;
-    font-weight: 700;   
-
-}
-
-.navigasi ul li a:hover {
-    color: cornsilk;
-}
-
-#home {
-    width: 100%;
-    height: 550px;
-    background: url(../gambar/backround.jpg); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    margin-top: 110px;
-}
-
-#container {
-position: absolute;
-margin-top: 150px;
-margin-left: 100px;
-height: auto;
-width: auto;
-border-right: #E1D89F;
-}
-
-.welcome marquee {
-    text-align: center;
-    color: #E1D89F;
-    font-size: 70px;
-    letter-spacing: 2px;
-    font-weight: 700;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-
-.welcome h2 {
-    margin-bottom: 20px;
-    color: #E1D89F;
-    font-size: 30px;
-    text-align: center;
     letter-spacing: 3px;
 }
-
-.tombol1 {
-    margin-top: 60px;
-    margin-left: 350px;
-    position: relative;
-}
-
-.tombol1 a {
-    text-decoration: none;
-    color: #E1D89F;
-    background-color: #FC8621;
-    padding: 15px;
-    border-radius: 20px;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.tombol1 a:hover {
-    color: rgb(39, 39, 39);
-}
-
-#halaman2 {
-    width: 100%;
-    height: 100%;
-    margin: 0 auto;
-    overflow: hidden;
-    box-sizing: border-box;
-}
-
-#container2 {
-    margin: 30px;
-    padding: 30px;
-    overflow: hidden;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
-}
-
-#container2 p {
-    font-size: 15px;
-}
-
-.konten1 {
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 10px;
-}
-
-.konten1 h2 {
-    margin-bottom: 20px;
-    font-size: 35px;
-}
-
-.konten2 {
-    width: 300px;
-    float: left;
-    height: auto;
-    padding: 20px;
-    margin-left: 70px;
-}
-
-.konten2 h2 {
-    margin-top: 20px;
-}
-
-
-.konten3 {
-    width: 300px;
-    float: left;
-    height: auto;
-    padding: 20px;
-    margin: 0px 40px 0px 40px;
-}
-
-.konten3 h2 {
-    margin-top: 20px;
-}
-
-
-.konten3 a img {
-    width: 50px;
-    height: 20px;
-    margin-right: 130px;
-}
-
-.konten4 {
-    width: 300px;
-    float: left;
-    height: auto;
-    padding: 20px;
-}
-
-.konten4 h2 {
-    margin-top: 20px;
-}
-
-#halaman3 {
-    background: url(../gambar/backround2.png); 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position:center;
-    width: 100%;
-    height: 100%;
-}
-
-#section {
-    text-align: center;
-    padding: 50px;
-}
-
-#footer1 {
-    background-color: #1E212D;
-    width: 100%;
-    height: 350px;
-    margin-top: 10px;
-}
-
-.kontak {
-    text-align: center;
-    padding: 20px;
-    color: #E1D89F;
-}
-
-.pesan {
-    padding: 30px;
-    width: 500px;
-    height:200px;
-    float: left;
-    position: absolute;
-}
-
-#komentar1 {
-    border-radius: 15px;
-    margin-left: 50px;
-}
-
-
-.pesan2 {
-    padding: 60px;
-    margin-left: 600px;
-    float: center;
-    height: 100px;
-    position: relative;
-    
-}
-
-.pesan2 ul {
-    list-style: none;
-    position: absolute;
-}
-
-.pesan2 ul li {
-    float: left;
-    
-}
-
-.twitter {
-    margin-right: 50px;
-}
-
-.instagram {
-    margin-top: 15px;
-    margin-right: 50px;
-}
-
-.whatsapp {
-    margin-left: 20px;
-}
-#halaman4 {
-    background-color: #ffffff;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
-}
-
-.copyright1 {
-    float: left;
-    margin-left: 20px;
-    color: black;
-    letter-spacing: 1px;
-}
-
-.copyright2 {
-display: block;
-}
-
-.penutup1 {
-    float: left;
-    margin-left: 800px;
-}
-
-.copyright2 a {
-    color: black;
-    text-decoration: none;
-    letter-spacing: 1px;    
-}
-
-.copyright2 a:hover {
-    color: #ffffff;
-}
-
