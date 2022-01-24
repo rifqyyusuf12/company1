@@ -9,7 +9,7 @@ body {
 }
 
 #wrapper {
-    width: 100%;
+    max-width: 1350px;
     margin: 0 auto;
     overflow: hidden;
 }
@@ -104,4 +104,44 @@ body {
 
 .tombol1 a:hover {
     color: rgb(39, 39, 39);
+}
+
+#halaman2 {
+    width: 100%;
+    height: auto;
+}
+
+#container2 {
+    max-width: 1350px;
+    margin: 50px auto;
+}
+
+.judul {
+    text-align: center;
+}
+
+.konten {
+    width: 30%;
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.konten.satu {
+    background-color: gray;
+}
+
+.konten.dua {
+    background-color: gray;
+}
+
+.konten.tiga {
+    background-color: gray;
+}
+
+@media screen {
+    #container2 {
+        display: flex;
+        justify-content: space-between;
+    }
 }
