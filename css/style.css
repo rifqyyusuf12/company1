@@ -116,7 +116,9 @@ body {
 }
 
 #container2 {
-    
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
 }
 
 .judul {
@@ -124,7 +126,10 @@ body {
 }
 
 .konten {
-
+    padding: 30px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 30%;
 }
 
 .konten.satu {
@@ -139,17 +144,24 @@ body {
     background-color: gray;
 }
 
-@media screen {
-    #container2 {
-        width: 100%;
-        margin: 50px auto;
-        display: flex;
-    }
+#about {
+    max-width: 1350px;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
-    .konten {
+.about {
+    width: 100%;
+}
+
+.about img {
+    width: 500px;
+}
+
+@media screen {
+    .about  {
         width: 30%;
-        padding: 30px;
-        box-sizing: border-box;
-        text-align: center;
     }
 }
