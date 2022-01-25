@@ -116,8 +116,7 @@ body {
 }
 
 #container2 {
-    max-width: 1350px;
-    margin: 50px auto;
+    
 }
 
 .judul {
@@ -125,10 +124,7 @@ body {
 }
 
 .konten {
-    width: 30%;
-    padding: 30px;
-    box-sizing: border-box;
-    text-align: center;
+
 }
 
 .konten.satu {
@@ -145,7 +141,15 @@ body {
 
 @media screen {
     #container2 {
+        width: 100%;
+        margin: 50px auto;
         display: flex;
-        justify-content: space-between;
+    }
+
+    .konten {
+        width: 30%;
+        padding: 30px;
+        box-sizing: border-box;
+        text-align: center;
     }
 }
