@@ -2,6 +2,7 @@
     padding: 0 auto;
     margin: 0 auto;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 body {
@@ -56,7 +57,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position:center;
-    margin-top: 110px;
+    margin-top: 100px;
+    box-sizing: border-box;
 }
 
 #container {
@@ -87,9 +89,10 @@ body {
 }
 
 .tombol1 {
-    margin-top: 60px;
-    margin-left: 350px;
+    display: flex;
     position: relative;
+    margin-top: 40px;
+    box-sizing: border-box;
 }
 
 .tombol1 a {
