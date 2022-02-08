@@ -110,58 +110,64 @@ body {
     color: rgb(39, 39, 39);
 }
 
-#halaman2 {
-    width: 100%;
-    height: auto;
-}
-
-#container2 {
-    width: 100%;
-    margin: 50px auto;
+#container-dua {
+    width: 1360px;
+    margin: 30px 30px;
     display: flex;
 }
 
-.judul {
-    text-align: center;
-}
-
-.konten {
-    padding: 30px;
-    box-sizing: border-box;
-    text-align: center;
-    width: 30%;
-}
-
-.konten.satu {
-    background-color: gray;
-}
-
-.konten.dua {
-    background-color: gray;
-}
-
-.konten.tiga {
-    background-color: gray;
-}
-
-#about {
-    max-width: 1350px;
-    margin: 50px auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.about {
-    width: 100%;
-}
-
-.about img {
+#card-satu {
+    border: 1px solid #9999;
+    border-radius: 10px;
+    background-color: #d3cdcd;
+    overflow: hidden;
     width: 500px;
+    
 }
 
-@media screen {
-    .about  {
-        width: 30%;
-    }
+#card-dua {
+    border: 1px solid #9999;
+    border-radius: 10px;
+    background-color: #d3cdcd;
+    overflow: hidden;
+    width: 500px;
+    
+}#card-tiga {
+    border: 1px solid #9999;
+    border-radius: 10px;
+    background-color: #d3cdcd;
+    overflow: hidden;
+    width: 500px;
+    
+}
+
+.gambar-satu {
+    height: 300px;
+    background-color: #e5e2e2;
+
+}
+
+#card-satu .isi-satu {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#card-dua .isi-dua {
+    text-align: center;
+    padding: 20px 0;
+}
+
+#card-tiga .isi-tiga {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.gambar-dua {
+    height: 300px;
+    background-color: #e5e2e2;
+}
+
+.gambar-tiga {
+    height: 300px;
+    background-color: #e5e2e2;
 }
